@@ -1,5 +1,5 @@
 
-CMAKE_MINIMUM_REQUIRED(VERSION 2.8.2)
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8.9)
 
 PROJECT(QtPropertyBrowser)
 
@@ -18,8 +18,8 @@ ENDFOREACH()
 #-----------------------------------------------------------------------------
 # Qt
 #
-FIND_PACKAGE(Qt4 4.7 REQUIRED)
-INCLUDE(${QT_USE_FILE})
+FIND_PACKAGE(Qt5Widgets REQUIRED)
+#INCLUDE(${QT_USE_FILE})
 
 #-----------------------------------------------------------------------------
 # Subdirectories
