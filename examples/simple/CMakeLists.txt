@@ -11,4 +11,5 @@ INCLUDE_DIRECTORIES(
   )
   
 ADD_EXECUTABLE(${example_name} ${KIT_SRCS})
+QT5_USE_MODULES(${example_name} Widgets)
 TARGET_LINK_LIBRARIES(${example_name} ${PROJECT_NAME})
